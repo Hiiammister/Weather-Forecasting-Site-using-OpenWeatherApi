@@ -1,0 +1,144 @@
+h1 {
+    text-align: right;
+    color: #001F3F;
+    font-size: 50px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("images/mountains.jpg");
+}
+
+div {
+    text-align: center;
+    size: 100;
+    border-color: #001F3F;
+}
+
+.body1 {
+    background-color: #c5fff8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: groove;
+    margin-top: 10px;
+}
+.body1 p1{
+    opacity: 50%;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(180deg, #96EFFF, #C5FFF8);;
+    color: white;
+    border-style: inset;
+}
+
+.weatherly {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+}
+
+.nav-list li {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-list li:first-child {
+    margin-left: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #001F3F;
+    font-size: 25px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-list li a:hover {
+    background: linear-gradient(180deg, #53777e, #c5fff8);
+    transition: 0.5s;
+    padding: 16px 32px;
+    border-radius: 30px;
+    margin: 4px 2px;
+    border-color: #001F3F;
+}
+
+.form {
+    text-align: left;
+    font-size: 25px;
+    color: #001F3F;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form input::placeholder {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form input[type=text] {
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-size: 25px;
+    background: linear-gradient(180deg, #53777e, #c5fff8);
+    font-weight: bold;
+}
+
+.form button {
+    color: #071952;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#weatherResults {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.weatherBox {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.weatherBox_temperature,
+.weatherBox_humidity,
+.weatherBox_windSpeed {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #071952;
+    background-color: #91C8E4; /* Yellow color for temperature */
+}
+
+.weatherBox_temperature,
+.weatherBox_humidity {
+    margin-right: 1rem;
+}
+
+.weatherBox_humidity,
+.weatherBox_windSpeed {
+    margin-left: 1rem;
+}
+
